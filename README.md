@@ -15,7 +15,6 @@
 Для просмотра структуры базы данных и для просмотра структуры таблиц в базе данных выподняй следующую команду:
 ```sql
 SELECT name FROM sqlite_master WHERE type='table';
-
 PRAGMA table_info(table_name);
 
 
