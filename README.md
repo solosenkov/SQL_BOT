@@ -8,7 +8,8 @@
 - ('student',)
 - ('group_student',)
 - ('teacher',)
-- ('subject',)  
+- ('subject',)
+  
 Для просмотра структуры БД можно выполнить команду:  SELECT name FROM sqlite_master WHERE type='table';
 
 Для просмотра структуры (столбцы и их типы) таблиц в базе данных, выполнить команду: PRAGMA table_info(table_name); 
